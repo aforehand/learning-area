@@ -16,7 +16,7 @@ var app = express();
 var mongoose = require('mongoose');
 
 //Set up default mongoose connection
-var mongoDB = 'mongodb://aforehand:Acf031489!@ds047642.mlab.com:47642/fidget';
+var mongoDB = 'mongodb://aforehand:db_password@ds047642.mlab.com:47642/fidget';
 mongoose.connect(mongoDB);
 
 //Get the default connection
